@@ -43,20 +43,20 @@ export const jobs: JobData[] = [
   },
   {
     url: "https://jobs.siemens.com/careers/job/563156119703172?microsite=siemens.com",
-    logoUrl: "https://www.siemens.com/assets/static/logo-white.2f518675.svg",
-    bgColor: "#000028",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/1920px-Siemens-logo.svg.png",
+    bgColor: "#E6E6E6",
     title: "Servicetechniker:in Einbruchmeldeanlagen"
   },
   {
     url: "https://jobs.siemens.com/careers/job/563156121294760?microsite=siemens.com",
-    logoUrl: "https://www.siemens.com/assets/static/logo-white.2f518675.svg",
-    bgColor: "#000028",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/1920px-Siemens-logo.svg.png",
+    bgColor: "#E6E6E6",
     title: "Systemingenieur:in / Techniker:in Gebäudeautomation"
   },
   {
     url: "https://jobs.siemens.com/careers/job/563156120088498?microsite=siemens.com",
-    logoUrl: "https://www.siemens.com/assets/static/logo-white.2f518675.svg",
-    bgColor: "#000028",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/1920px-Siemens-logo.svg.png",
+    bgColor: "#E6E6E6",
     title: "IT Operations Analyst (f/m/d) DNS / Secure Mail"
   },
   {
