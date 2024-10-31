@@ -2,11 +2,14 @@
 
 Contains a remotion project with compositions:
 * JobWall
-* ThirtySecs
+* SponsorVideos
 
 These are intended to be rendered in a video file each.
 
 Additionally, HelloWorld and OnlyLogo from the original remotion template are still there for documentation.
+
+Raw assets (under public/) are not committed to git, for filesize reasons. We have them in our google drive.
+These are the files referenced with the staticFile() function.
 
 ## Commands
 
