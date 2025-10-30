@@ -23,20 +23,20 @@ export const JobWall: React.FC<void> = () => {
                     top: "25px",
                     right: "25px"
                   }}
-                  src={logoUrl}
+                  src={logoUrl.startsWith('http') ? logoUrl : staticFile(logoUrl)}
                   alt="company logo"
                 />
                 <div style={{textAlign: 'center'}}>
                   <div style={{width: '100%'}}>
                     <QRCodeCanvas
-                      style={{margin: '50px auto'}}
+                      style={{margin: '50px auto'}} 
                       value={url}
                       size={Math.min(width, height) / 2}
                       fgColor={findFg(bgColor)}
                       bgColor={bgColor}
                     />
                   </div>
-                  <h2 style={{marginTop: '20px', fontSize: '8em'}}>{title}</h2>
+                  <h2 style={{marginTop: '20px', fontSize: '6em'}}>{title}</h2>
                 </div>
               </AbsoluteFill>
             </TransitionSeries.Sequence>,

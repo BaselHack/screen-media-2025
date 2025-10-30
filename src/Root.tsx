@@ -3,7 +3,7 @@ import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import {JobWall} from "./JobWall/JobWall";
-import {segDurationSecs, sponsorVideoData, SponsorVideos} from "./SponsorVideos/SponsorVideos";
+import {sponsorVideosData, SponsorVideos} from "./SponsorVideos/SponsorVideos";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -57,7 +57,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="SponsorVideos"
         component={SponsorVideos}
-        durationInFrames={sponsorVideoData.length * 30 *segDurationSecs }
+        durationInFrames={sponsorVideosData.reduce((acc, curr) => acc + curr.duration, 0) * 30}
         fps={30}
         width={1920}
         height={1080}
