@@ -1,6 +1,7 @@
-# BaselHack 2024 Screen Media
+# BaselHack 2025 Screen Media
 
 Contains a remotion project with compositions:
+
 * JobWall
 * SponsorVideos
 

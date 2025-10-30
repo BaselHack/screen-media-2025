@@ -1,6 +1,6 @@
 import {AbsoluteFill, Sequence, staticFile, useVideoConfig, Video} from "remotion";
 
-export const sponsorVideoData = ['eh', 'pax', 'siemens', 'mdpi'];
+export const sponsorVideoData = ['sponsor1', 'sponsor2', 'sponsor3', 'sponsor4'];
 export const segDurationSecs = 30;
 export const SponsorVideos = () => {
   const {fps} = useVideoConfig();
@@ -14,7 +14,7 @@ export const SponsorVideos = () => {
           >
             <Video
               src={staticFile(`${name}.mp4`)}
-              playbackRate={name == "mdpi" ? 1.5 : 1}
+              // playbackRate={name == "xzz" ? 1.5 : 1}
             />
           </Sequence>
       )))}
