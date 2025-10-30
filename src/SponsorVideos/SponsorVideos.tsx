@@ -3,27 +3,27 @@ import {AbsoluteFill, Sequence, staticFile, useVideoConfig, Video} from "remotio
 export const sponsorVideosData = [
   {
     file: 'cyon',
-    duration: 20,
+    duration: 15,
     playbackRate: 1.0
   },
   {
     file: 'pax',
-    duration: 115,
-    playbackRate: 1.1
+    duration: 127,
+    playbackRate: 1
   },
   {
     file: 'adobe',
-    duration: 66,
+    duration: 60,
     playbackRate: 1
   },
   {
     file: 'eh',
-    duration: 234,
-    playbackRate: 1.1
+    duration: 252,
+    playbackRate: 1
   },
   {
     file: 'coop',
-    duration: 47,
+    duration: 45,
     playbackRate: 1
   }
 ];
