@@ -4,6 +4,7 @@ import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import {JobWall} from "./JobWall/JobWall";
 import {sponsorVideosData, SponsorVideos} from "./SponsorVideos/SponsorVideos";
+import { jobs } from "./JobWall/jobs";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -48,7 +49,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="JobWall"
         component={JobWall}
-        durationInFrames={30 * 60 * 2}
+        durationInFrames={(jobs.length * 7 * 30) + (34 * 30)} // 8 secs per job, with overlap transition; + 35 secs static videos - 1 sec transition, 30 fps
         fps={30}
         width={1920}
         height={1080}

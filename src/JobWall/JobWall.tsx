@@ -12,6 +12,13 @@ export const JobWall: React.FC<void> = () => {
   return (
     <AbsoluteFill style={{backgroundColor: "#000000"}}>
       <TransitionSeries>
+          <TransitionSeries.Sequence durationInFrames={fps * 30}>
+          <Video src={staticFile("pax-jobwall.mp4")}/>
+        </TransitionSeries.Sequence>
+        <TransitionSeries.Transition
+          presentation={flip()}
+          timing={linearTiming({durationInFrames: 30})}
+        />
         {jobs.reverse().flatMap(({title, url, logoUrl, bgColor}, index) => (
           [
             <TransitionSeries.Sequence key={title} durationInFrames={durationPerUrl}>
@@ -46,7 +53,7 @@ export const JobWall: React.FC<void> = () => {
             />
           ]
         ))}
-        <TransitionSeries.Sequence durationInFrames={durationPerUrl}>
+        <TransitionSeries.Sequence durationInFrames={fps * 5}>
           <Video src={staticFile("cyon.mp4")}/>
         </TransitionSeries.Sequence>
       </TransitionSeries>

@@ -5,32 +5,6 @@ export interface JobData {
   title: string;
 }
 export const jobs: JobData[] = [
-  // PAX jobs from 2025
-  {
-    url: "https://ohws.prospective.ch/public/v1/jobs/7448d2c5-d896-42c1-b978-3319c4adcbb3",
-    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
-    bgColor: "#3A3A53",
-    title: "Trainee (w/m/d), 18 Monate Programm"
-  },
-  {
-    url: "https://ohws.prospective.ch/public/v1/jobs/b55ca6bc-0986-4bc1-b705-9b7ef4e7230d",
-    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
-    bgColor: "#3A3A53",
-    title: "Product Owner Private Vorsorge (w/m/d)"
-  },
-  {
-    url: "https://ohws.prospective.ch/public/v1/jobs/7448d2c5-d896-42c1-b978-3319c4adcbb3",
-    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
-    bgColor: "#3A3A53",
-    title: "Trainee (w/m/d), 18 Monate Programm"
-  },
-  {
-    url: "https://ohws.prospective.ch/public/v1/jobs/b55ca6bc-0986-4bc1-b705-9b7ef4e7230d",
-    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
-    bgColor: "#3A3A53",
-    title: "Product Owner Private Vorsorge (w/m/d)"
-  },
-
   // E+H jobs from 2025
   {
     url: "https://careers.endress.com/Switzerland/job/Reinach-BL-Student-C-Developer-%28mfd%29-4153/1262425601/",
@@ -87,4 +61,19 @@ export const jobs: JobData[] = [
 
   // Cyon
   // static video asset
+
+  // PAX jobs from 2025
+  // static video asset + jobs below
+  {
+    url: "https://ohws.prospective.ch/public/v1/jobs/7448d2c5-d896-42c1-b978-3319c4adcbb3",
+    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
+    bgColor: "#3A3A53",
+    title: "Trainee (w/m/d), 18 Monate Programm"
+  },
+  {
+    url: "https://ohws.prospective.ch/public/v1/jobs/b55ca6bc-0986-4bc1-b705-9b7ef4e7230d",
+    logoUrl: "https://www.pax.ch/de/-/media/pax/system/pax-logo-hell.svg",
+    bgColor: "#3A3A53",
+    title: "Product Owner Private Vorsorge (w/m/d)"
+  },
 ];

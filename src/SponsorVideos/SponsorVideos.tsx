@@ -2,19 +2,49 @@ import {AbsoluteFill, Sequence, staticFile, useVideoConfig, Video} from "remotio
 
 export const sponsorVideosData = [
   {
+    file: 'baselhack',
+    duration: 12,
+    playbackRate: 1.0
+  },
+  {
     file: 'cyon',
-    duration: 15,
+    duration: 10,
+    playbackRate: 1.0
+  },
+  {
+    file: 'baselhack',
+    duration: 12,
     playbackRate: 1.0
   },
   {
     file: 'pax',
-    duration: 127,
+    duration: 129,
     playbackRate: 1
   },
   {
+    file: 'baselhack',
+    duration: 12,
+    playbackRate: 1.0
+  },
+  {
     file: 'adobe',
-    duration: 60,
+    duration: 63,
     playbackRate: 1
+  },
+  {
+    file: 'baselhack',
+    duration: 12,
+    playbackRate: 1.0
+  },
+  {
+    file: 'baseltech',
+    duration: 30,
+    playbackRate: 1
+  },
+  {
+    file: 'baselhack',
+    duration: 12,
+    playbackRate: 1.0
   },
   {
     file: 'eh',
@@ -22,8 +52,13 @@ export const sponsorVideosData = [
     playbackRate: 1
   },
   {
+    file: 'baselhack',
+    duration: 12,
+    playbackRate: 1.0
+  },
+  {
     file: 'coop',
-    duration: 45,
+    duration: 47,
     playbackRate: 1
   }
 ];
