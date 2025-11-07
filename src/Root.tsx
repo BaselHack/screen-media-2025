@@ -37,8 +37,8 @@ export const RemotionRoot: React.FC = () => {
         component={Logo}
         durationInFrames={150}
         fps={30}
-        width={1920}
-        height={1080}
+        width={3840}
+        height={2160}
         schema={myCompSchema2}
         defaultProps={{
           logoColor1: "#91dAE2" as const,
@@ -51,8 +51,8 @@ export const RemotionRoot: React.FC = () => {
         component={JobWall}
         durationInFrames={(jobs.length * 7 * 30) + (34 * 30)} // 8 secs per job, with overlap transition; + 35 secs static videos - 1 sec transition, 30 fps
         fps={30}
-        width={1920}
-        height={1080}
+        width={3840}
+        height={2160}
       />
 
       <Composition

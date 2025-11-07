@@ -26,9 +26,9 @@ export const JobWall: React.FC<void> = () => {
                 <Img
                   style={{
                     position: "absolute",
-                    width: "300px",
-                    top: "25px",
-                    right: "25px"
+                    width: "800px",
+                    top: "200px",
+                    right: "150px"
                   }}
                   src={logoUrl.startsWith('http') ? logoUrl : staticFile(logoUrl)}
                   alt="company logo"
@@ -36,14 +36,14 @@ export const JobWall: React.FC<void> = () => {
                 <div style={{textAlign: 'center'}}>
                   <div style={{width: '100%'}}>
                     <QRCodeCanvas
-                      style={{margin: '50px auto'}} 
+                      style={{margin: '300px auto 100px auto'}} 
                       value={url}
                       size={Math.min(width, height) / 2}
                       fgColor={findFg(bgColor)}
                       bgColor={bgColor}
                     />
                   </div>
-                  <h2 style={{marginTop: '20px', fontSize: '6em'}}>{title}</h2>
+                  <h2 style={{marginTop: '20px', marginLeft: '250px', marginRight: '250px', fontSize: '130px'}}>{title}</h2>
                 </div>
               </AbsoluteFill>
             </TransitionSeries.Sequence>,
